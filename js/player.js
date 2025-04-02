@@ -29,4 +29,6 @@ function goFullscreen() {
     var iframe = document.getElementById('player-frame').contentWindow.document.body;
     
     iframe.webkitRequestFullscreen();
+
+    document.getElementById('player-frame').focus();
 }
